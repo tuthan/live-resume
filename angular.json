@@ -72,17 +72,21 @@
               ]
             },
             "en": {
+              "aot": true,
               "localize": [
                 "en"
               ],
               "outputPath": "dist/en/",
+              "baseHref": "/www.guilhermeborgesbastos.com/en/",
               "i18nMissingTranslation": "error"
             },
             "pt": {
+              "aot": true,
               "localize": [
                 "pt"
               ],
               "outputPath": "dist/pt/",
+              "baseHref": "/www.guilhermeborgesbastos.com/pt/",
               "i18nMissingTranslation": "error"
             },
             "es5": {
