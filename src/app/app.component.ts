@@ -8,7 +8,7 @@ import { Meta, Title } from "@angular/platform-browser";
 })
 export class AppComponent implements OnInit {
 
-  title: string = "Live Resume - Guilherme Borges Bastos";
+  title: string = "Live Resume - Hung Vo";
 
   constructor(
     private titleService: Title,
@@ -20,16 +20,16 @@ export class AppComponent implements OnInit {
     this.titleService.setTitle(this.title);
 
     this.metaTagService.addTags([
-      { name: "keywords", content: "Web Developer, Java Developer, Full-stack Java Developer, DevOps Engineer, Android Developer, Guilherme Borges Bastos Live Resume, Guilherme Borges Bastos Resume, Guilherme Borges Bastos CV, Curriculum Guilherme Borges Bastos, GBASTOS Resumo, gbastos live resume" },
+      { name: "keywords", content: "Cloud Engineer, Security Engineer, DevOps Engineer, Hung Vo Live Resume, Hung Vo Resume, Hung Vo CV, Curriculum Hung Vo , Hung live resume" },
       { name: "robots", content: "index, follow" },
-      { name: "author", content: "Guilherme Borges Bastos" },
+      { name: "author", content: "Hung Vo" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "date", content: "2020-05-12", scheme: "YYYY-MM-DD" },
+      { name: "date", content: "2022-04-11", scheme: "YYYY-MM-DD" },
       { charset: "UTF-8" }
     ]);
 
     this.metaTagService.updateTag(
-      { name: "description", content: "Hello, I'm a Full-stack Web Developer with 10+ years of experience designing web and mobile projects. Find out more in my live-resume!" }
+      { name: "description", content: "Hello, I'm DevOps/Cloud/Security Engineer with 10 years expreriences working with various cloud & technology. Find out more about me!" }
     );
   }
 }
