@@ -1,21 +1,17 @@
 <div class="dialog-container">
     <img loading="lazy" src="./assets/template/welcome/bubble-frame.png" alt="Welcome Speech Bobble"/>
     <div class="console">
-        <p class="hello" i18n="dialog@@hello">Hi there!</p>
+        <p class="hello" i18n="dialog@@hello">Hi hi, welcome!</p>
         <span
             class="txt-rotate"
             appTypingAnimation
             [phrasePeriod]="2000"
             [startDelay]="1500"
             [typeSpeed]="200"
-            [data]='[
-                {
-                    "language": "vn",
-                    "phrases": [ "Meu nome é Guilherme.", "Seja bem-vindo(a) ao meu resumo online.", "Abaixo, você me conhecerá melhor... :)" ]
-                },
+            [data]='[                
                 {
                     "language": "en",
-                    "phrases": [ "My name is Hung.", "This is my CV.", "Keep scroll, you will know me better... :)" ]
+                    "phrases": [ "This is a demonstration", "I built & hosted this site", "Automated & using tool like: git, container, cloud, ci/cd etc...",  "Keep scroll, you will know me better... :)" ]
                 }
             ]'></span>
     </div>
